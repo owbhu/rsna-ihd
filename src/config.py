@@ -1,0 +1,10 @@
+DATA_DIR      = "data"
+RAW_CSV       = f"{DATA_DIR}/raw/stage_2_train.csv"
+RAW_DICOM_DIR = f"{DATA_DIR}/raw/train"
+PROC_DIR      = f"{DATA_DIR}/processed/160"
+SAMPLE_CSV    = f"{DATA_DIR}/raw/sample_20k.csv"
+TRAIN_CSV     = f"{DATA_DIR}/splits/train_dev.csv"
+DEV_CSV       = f"{DATA_DIR}/splits/dev.csv"
+TEST_CSV      = f"{DATA_DIR}/splits/test.csv"
+IMG_SIZE      = 160
+SEED          = 42

@@ -1,0 +1,20 @@
+name: ihd
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  #remove for MPS (mac silicon)
+  - opencv
+  - pydicom
+  - scikit-learn
+  - pandas
+  - tqdm
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pytest
+  - pip
